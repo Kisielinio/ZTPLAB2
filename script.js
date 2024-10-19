@@ -1,3 +1,4 @@
+// Comit added
 // Pobieramy elementy z DOM
 const textarea = document.getElementById('textarea');
 const charCount = document.getElementById('charCount');
