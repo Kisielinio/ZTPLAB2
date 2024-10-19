@@ -1,0 +1,49 @@
+/* Ustawienie domyślnego marginesu i paddingu oraz box-sizing dla wszystkich elementów */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stylizacja ciała dokumentu */
+body {
+    font-family: Arial, sans-serif; /* Ustawienie czcionki */
+    display: flex; /* Ustawienie elastycznego układu */
+    justify-content: center; /* Wyśrodkowanie zawartości poziomo */
+    align-items: center; /* Wyśrodkowanie zawartości pionowo */
+    height: 100vh; /* Pełna wysokość okna przeglądarki */
+    background-color: #f0f0f0; /* Kolor tła strony */
+}
+
+/* Główny kontener aplikacji */
+.container {
+    background-color: white; /* Białe tło kontenera */
+    padding: 20px; /* Wewnętrzny margines */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Cień wokół kontenera */
+    width: 300px; /* Szerokość kontenera */
+    text-align: center; /* Wyśrodkowanie tekstu w kontenerze */
+}
+
+/* Stylizacja pola tekstowego (textarea) */
+textarea {
+    width: 100%; /* Szerokość textarea dopasowana do kontenera */
+    height: 100px; /* Wysokość pola tekstowego */
+    padding: 10px; /* Wewnętrzny margines */
+    border: 1px solid #ccc; /* Obwódka o jasnoszarym kolorze */
+    border-radius: 5px; /* Zaokrąglone rogi */
+    font-size: 16px; /* Wielkość tekstu */
+    resize: none; /* Wyłączenie możliwości zmiany rozmiaru textarea */
+}
+
+/* Stylizacja paragrafu wyświetlającego liczbę znaków */
+p {
+    margin-top: 10px; /* Margines górny */
+    font-size: 18px; /* Wielkość tekstu */
+}
+
+/* Stylizacja liczby znaków (span), gdzie aktualizowana jest wartość */
+#charCount {
+    font-weight: bold; /* Pogrubienie tekstu */
+    color: #333; /* Ciemnoszary kolor tekstu */
+}

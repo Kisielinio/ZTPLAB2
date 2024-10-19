@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Ustawienie kodowania znaków i dostosowanie strony do urządzeń mobilnych -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Tytuł strony wyświetlany na karcie przeglądarki -->
+    <title>Licznik znaków</title>
+    
+    <!-- Łączenie pliku CSS z kodem HTML -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Główna sekcja kontenera, w której znajdują się wszystkie elementy interfejsu -->
+    <div class="container">
+        <!-- Nagłówek strony -->
+        <h1>Licznik znaków</h1>
+        
+        <!-- Pole tekstowe (textarea), do którego użytkownik może wpisywać tekst -->
+        <textarea id="textarea" placeholder="Wpisz tekst..."></textarea>
+        
+        <!-- Paragraf, który pokazuje liczbę znaków, wraz ze spanem, gdzie jest aktualizowana wartość -->
+        <p>Liczba znaków: <span id="charCount">0</span></p>
+    </div>
+
+    <!-- Łączenie pliku JavaScript z kodem HTML -->
+    <script src="script.js"></script>
+</body>
+</html>
